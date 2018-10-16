@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat qui mousse</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/js/jquery-ui/jquery-ui.min.css">
+    <script type="text/javascript" src="public/js/jquery.js"></script>
+    <script src="public/js/jquery-ui/jquery-ui.min.js"></script>
+
+
+  </head>
+  <body>
+    <header>
+      <div id="titre">
+        <h1>CHAT QUI MOUSSE</h1>
+        <h5>LA TOILETTE POUR NOS AMIS A QUATRES PATTES</h5>
+      </div>
+      <img src="public/img/logo.png" alt="logo"/>
+      <img id="menuBar" src="public/img/menuBar.png" alt="Barre de Menu" />
+    </header>
+
+  <div id="navy">
+    <nav>
+      <a  href="#page1">Accueil</a>
+      <a  href="#page2">Chiens</a>
+      <a  href="#page3">Chats</a>
+      <a  href="#page4">Galerie</a>
+      <a href="#page5">Contact</a>
+    </nav>
+
+    <div id="menu">
+      <a  href="#page1">Accueil</a>
+      <a  href="#page2">Chiens</a>
+      <a  href="#page3">Chats</a>
+      <a  href="#page4">Galerie</a>
+      <a href="#page5">Contact</a>
+    </div>
+  </div>
+
+    <section id="page1" class="impair">
+      <article id="ARTpresentation">
+        <h2>Premier centre de bien être pour nos amis de la région Saint Chaptoise!</h2>
+        <p>Maryvonne, spécialiste féline (grrr) accueille tous nos compagnons, qu'ils soient à poils longs ou courts.</p>
+        <p>Venez vite nous rendre visite!</p>
+        <img class="imgarticle" id="chatAccueil" src="public/img/chat-accueil.jpg" alt="chat-accueil"/>
+      </article>
+    </section>
+
+    <section id="page2" class="pair">
+      <article id="ARTchien">
+        <h2>Les chiens sont nos amis, il faut les laver aussi!</h2>
+        <p>Un toutou qui a la classe, c'est quand même hachement mieux en société.</p>
+        <p>Tous les toutous aiment être beau.</p>
+        <img class="imgarticle" id="chien" src="public/img/chien-ciseau.jpeg" alt="chien-ciseau"/>
+      </article>
+    </section>
+
+    <section id="page3" class="impair">
+      <article id="ARTchat">
+        <h2>Les chats aiment quand ça mousse!</h2>
+        <p>Oui les chats sont propres, mais ils peuvent l'être encore plus.</p>
+        <p>Faire toilleter son chat, c'est s'assurer qu'il est heureux.</p>
+        <img class="imgarticle" id="chat" src="public/img/chat-vert.jpeg" alt="chat-vert"/>
+      </article>
+    </section>
+
+
+    <section id="page4" class="pair">
+      <article id="ARTgalerie">
+        <h2>Regardez comme ils sont heureux!</h2>
+
+        <div id="DIVgalerie">
+              <img  src="public/img/chat-baignoire.jpeg" alt="chat-baignoire"/>
+              <img  src="public/img/chien-classieux.jpeg" alt="chien-classieux"/>
+              <img  src="public/img/chat-gris.jpeg" alt="chat-gris"/>
+              <img  src="public/img/chien-sceau.jpeg" alt="chien-sceau"/>
+              <img  src="public/img/chat-citroen.jpeg" alt="chat-citroen"/>
+        </div>
+      </article>
+    </section>
+
+    <section id="page5" class="impair">
+      <article id="ARTcontact">
+        <h2>Venez vite nous rendre visite</h2>
+        <p>123 Caraden Road, 30190 Saint Chaptes (si si cette adresse existe, on vous assure!)</p>
+        <p>Telephone: 0118 999 881</p>
+        <p>En nous contactant vous acceptez que vos informations soient conservées dans notre BDD.</p>
+        <p>Pour pouvoir vous répondre ultérieurrement. Selon la loi X0354.64 du RGPD</p>
+        <div class="">
+          <fieldset>
+            <legend>Formualaire de contact</legend>
+              <form>
+                  <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input id="nom" name="nom" type="name" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="mail" name="mail" type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Texte</label>
+                    <input id="message" name="message" type="text" class="form-control" id="text" placeholder="Texte">
+                  </div>
+                <div class="">
+                  <button id="BTNenvoi" type="button" >Contactez nous</button>
+                </div>
+              </form>
+          </fieldset>
+
+        </div>
+      </article>
+    </section>
+
+    <footer id="footer">
+      <p> © JDLR</p>
+      <div id="lien">
+        <a href="#" target="_blank"><img src="public/img/facebook.png" alt="facebook" /></a>
+        <a href="#" target="_blank"><img src="public/img/twitter.png" alt="twitter" /></a>
+
+        <a href="accueil.html"><button id="top" type="button" name="button">↑</button></a>
+      </div>
+
+    </footer>
+
+    <script type="text/javascript" src="public/js/exo23.js"></script>
+
+  </body>
+</html>
